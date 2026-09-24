@@ -32,6 +32,7 @@
 
 
 # simplest git workflow
+# .gitignore file bnao : it simply tells github which files/folder are not req to be tracked 
 # 1. first time only - initialize git in your project
 # git init
 # local git repo : python for AI(same name of project folder automatically chka isne jo mne project folder ko dia tha)
@@ -45,6 +46,14 @@
 # git status : it will show that whatever is left for commit , etc
 # That's it ! your code is saved and backed up
 
+# 4. if we want to change the name of branch to main (defaults it is master)
+# git branch -M main
+
+# 5. connecting github with our local project
+# git remote add origin https://github.com/kirti-goell/python-for-AI.git (ye url github repo se hi lete hai)
+
+# 6. github pr code push kro
+# git push -u origin main
 
 # i just went to github and created github repo with name python-for-AI
 
