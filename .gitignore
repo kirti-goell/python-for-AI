@@ -1,0 +1,94 @@
+# .gitignore tells git which files to ignore
+
+
+# =========================
+# Python
+# =========================
+
+# Python cache
+_pycache_/
+*.py[cod]
+*$py.class
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Virtual Environment
+# =========================
+
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Jupyter Notebook
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE / Editors
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+
+# =========================
+# AI / ML generated files
+# =========================
+
+# Model files
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+
+# Large datasets
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# =========================
+# Local secrets / API keys
+# =========================
+
+secrets.json
+credentials.json
+config.local.*
+
