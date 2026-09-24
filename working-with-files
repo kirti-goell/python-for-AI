@@ -1,0 +1,12 @@
+
+Files in AI projects
+
+When working with Python for AI, you'll constantly work with data files. Your data might come as:
+
+* CSV files - Spreadsheet data from Excel or databases
+* JSON files - API responses and configuration data
+* XML files - Structured data from various systems
+* Text files - Raw text for processing
+* Parquet files - Efficient data storage format
+
+The good news? Python has excellent libraries for all of these.

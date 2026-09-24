@@ -1,0 +1,29 @@
+# Module : A single python file like (math.py)
+# Package : A folder containing multiple modules
+# Function : A reusable block of code (print() or sqrt())
+# Class : A blueprint to create object
+
+# Think of it like
+# module is a toolbox
+# package is garage of multiple toolboxes
+# function is a particular tool from toolbox(like hammer)
+# class is like blueprint to create a particular tool
+
+# there are 2 types of packages : built-in, ye jb hum python install krte hai tb hi bich me ho jate hai
+# external packages : ye hume separately install krne pdte h using pip command
+pip install name_of_package
+
+we can also install the specific version 
+pip install name_of_package==version_no.
+
+
+we can also install multiple packages
+pip install numpy pandas matplotlib
+
+mne koi project bnaya hai python ka and suppose usey mne apne kisi frnd ko dena hai chlane k liye and esa hota hi h ki hum bhul jate h 
+ki konse version use kr rhe h , konse packages , dependicies , etc hai
+to iske liye standard way hai requirements.txt file 
+hume terminal pr pip freeze > requirements.txt run krna hai khud hi file create ho jaegi and jo bhi humne version ya kuch bhi use kia hai apne project me 
+vo sab requiremnets wali file m show hoga
+ab mera project jiske bhi pas jaega use pip install -r requirements.txt run krna hai terminal pr khud hi sab kuch usk liye install ho jaega
+ab bs isk bad use project run krna hai
