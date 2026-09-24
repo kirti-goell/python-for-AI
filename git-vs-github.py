@@ -46,6 +46,8 @@
 # git status : it will show that whatever is left for commit , etc
 # That's it ! your code is saved and backed up
 
+# i just went to github and created github repo with name python-for-AI
+
 # 4. if we want to change the name of branch to main (defaults it is master)
 # git branch -M main
 
@@ -55,7 +57,7 @@
 # 6. github pr code push kro
 # git push -u origin main
 
-# i just went to github and created github repo with name python-for-AI
+
 
 # clone : download existing project from github
 # create : starts new project and upload them
