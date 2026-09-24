@@ -1,0 +1,17 @@
+Formatting with Ruff
+
+Automatically format and lint your Python code
+
+What is Ruff?
+
+Ruff is a modern Python tool that's incredibly fast and combines multiple tools in one:
+
+* Linting - Finding issues and potential errors
+
+* Formatting - Fixing code style automatically
+
+* Import sorting - Organizing imports cleanly
+
+It's beginner-friendly with clear error messages and works seamlessly with VS Code.
+
+A linter checks your code for style issues and potential errors. A formatter automatically fixes these issues for you.
